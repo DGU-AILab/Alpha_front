@@ -5,10 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { QueryClientProvider } from "react-query";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { init_i18n } from "./lib/i18n";
+import { queryClient } from "./lib/queryClient";
 
-const queryClient = new QueryClient();
+init_i18n();
 
 ReactDOM.render(
     <React.StrictMode>
