@@ -10,7 +10,7 @@
 
 ---
 
-### WEB
+### Dep
 
 -   CRA
 -   TypeScript
