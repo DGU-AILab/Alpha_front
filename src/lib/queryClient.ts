@@ -1,4 +1,4 @@
-import { QueryClient } from "react-query";
+import { QueryClient, UseQueryOptions } from "react-query";
 import { defaultQueryFn } from "./defaultQueryFn";
 
 export const queryClient = new QueryClient({
